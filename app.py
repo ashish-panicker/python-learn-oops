@@ -1,16 +1,29 @@
 """
 OOPS - Object Oriented Programming System
 Key concepts here are classess and objects, scalable, reusable, modular
+"""
+from ecommerce import Product, Cart, Order
+from ecommerce.payment import VisaPayment
 
-Learning Management - Wipro
-Wipro hires new employees and ensure that they are trained according the needs of the organization.
-For this they create a comprehensive training programs that span over multiple weeks. 
-Each program is comprised of a series of related technologies which are taught by experinced senior mentors. 
-Evey trainee has to undergo this rigorous program before they are inducted into projects. 
-Trainees are grouped into batches for easier management and delivery. 
-Trainees will have to undergo stringent assessments and evaluations and the results of these determine 
-their completion outcome.
+# is-a & has-a relationships
 
-Identify the classess, their properties, their relationships in this problem statement.
+# Manager Is A Employee => True
+# Lion Is A Cat => True
 
+
+# Customer  Has A   Address => True
+# Car       Has A   Engine  => True
+
+"""
+IS A  - Inheritance
+Has A - Composition or Aggregation
+
+Composition and Aggregation
+Association
+
+Dunder/Magic [Double underscore] 
+__init__
+__new__
+__str__
+__repr__
 """
